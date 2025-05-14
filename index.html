@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iPhone Models</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: black;
+      color: #ddd;
+    }
+    .iphone-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      width: 90%; /* Adjust the width as needed */
+      /* Optional: Set a maximum width */
+      margin: 0 auto; /* Center the container */
+    }
+    .iphone-card {
+      width: 180px;
+      border: 1px solid #ddd;
+      padding: 5px;
+      text-align: center;
+      font-size: 12px;
+      
+      
+      
+    }
+    .iphone-card img {
+      width: 70%;
+      height: auto;
+    }
+    
+
+    .buttons {
+      margin-top: 5px;
+      
+    }
+    .buttons button {
+      margin: 3px;
+      padding: 8px 12px;
+      font-size: 14px;
+      cursor: pointer;
+      color: rgb(223, 223, 234);
+      background-color: blue;
+      border-color: #ddd;
+    
+      
+    }
+  </style>
+</head>
+<body>
+
+  <h1>iPhone Models</h1>
+  <div id="iphoneContainer" class="iphone-container">
+    <!-- iPhone cards will be inserted here -->
+  </div>
+
+  <script>
+    // Function to fetch and display iPhone data
+    function loadIphoneData() {
+      fetch('iphone.json')
+        .then(response => response.json())
+        .then(data => {
+          const iphones = data.iphones;
+          const container = document.getElementById('iphoneContainer');
+          iphones.forEach(iphone => {
+            const card = document.createElement('div');
+            card.classList.add('iphone-card');
+            card.innerHTML = `
+              <img src="${iphone.image}" alt="${iphone.name}">
+              <h3>${iphone.name}</h3>
+              <p><strong>Model:</strong> ${iphone.model}</p>
+              <p><strong>Price:</strong> ₹${iphone.price.toLocaleString('en-IN')}</p>
+              <p><strong>Color:</strong> ${iphone.color}</p>
+              <p><strong>Storage:</strong> ${iphone.storage}</p>
+             
+              <p><strong>Camera:</strong> ${iphone.camera}</p>
+              <div class="buttons">
+                <button onclick="buyNow('${iphone.name}')">Buy Now</button>
+               
+              </div>
+            `;
+            container.appendChild(card);
+          });
+        })
+        .catch(error => console.error('Error loading iPhone data:', error));
+    }
+
+    // Function to handle "Buy Now" button click
+    function buyNow(iphoneName) {
+      alert(`Redirecting to purchase page for ${iphoneName}.`);
+      // Add your purchase page URL here
+      // window.location.href = 'purchase_page_url';
+    }
+
+    // Function to handle "Show Details" button click
+    function showDetails(iphoneName) {
+      alert(`Showing details for ${iphoneName}.`);
+      // Implement your detail view logic here
+    }
+
+    // Load iPhone data when the page loads
+    window.onload = loadIphoneData;
+  </script>
+
+</body>
+</html>

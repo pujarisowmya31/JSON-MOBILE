@@ -1,0 +1,137 @@
+{
+    "iphones": [
+      {
+        "name": "iPhone 14",
+        "model": "A2649",
+        "price": 79999,
+        "rating": 4.5,
+        "color": "Midnight",
+        "storage": "128GB",
+        "size": "6.1 inches",
+        "camera": "12MP Ultra Wide, 12MP Wide",
+        "image": "iphone14.jpg"
+      },
+      {
+        "name": "iPhone 14 Plus",
+        "model": "A2650",
+        "price": 89999,
+        "rating": 4.6,
+        "color": "Starlight",
+        "storage": "128GB",
+        "size": "6.7 inches",
+        "camera": "12MP Ultra Wide, 12MP Wide",
+        "image": "iphone14plus.jpg"
+      },
+      {
+        "name": "iPhone 14 Pro",
+        "model": "A2651",
+        "price": 109999,
+        "rating": 4.8,
+        "color": "Space Black",
+        "storage": "256GB",
+        "size": "6.1 inches",
+        "camera": "48MP Ultra Wide, 12MP Wide, 12MP Telephoto",
+        "image": "iphone14pro.jpg"
+      },
+      {
+        "name": "iPhone 15",
+        "model": "A2651",
+        "price": 89999,
+        "rating": 4.7,
+        "color": "Starlight",
+        "storage": "256GB",
+        "size": "6.1 inches",
+        "camera": "12MP Ultra Wide, 12MP Wide, 12MP Telephoto",
+        "image": "iphone15.jpg"
+      },
+      {
+        "name": "iPhone 14 Pro Max",
+        "model": "A2652",
+        "price": 119999,
+        "rating": 4.9,
+        "color": "Silver",
+        "storage": "256GB",
+        "size": "6.7 inches",
+        "camera": "48MP Ultra Wide, 12MP Wide, 12MP Telephoto",
+        "image": "iphone14promax.jpg"
+      },
+      {
+        "name": "iPhone 15 Plus",
+        "model": "A2654",
+        "price": 99999,
+        "rating": 4.7,
+        "color": "Starlight",
+        "storage": "256GB",
+        "size": "6.7 inches",
+        "camera": "12MP Ultra Wide, 12MP Wide, 12MP Telephoto",
+        "image": "iphone15plus.jpg"
+      },
+      {
+        "name": "iPhone 16",
+        "model": "A2652",
+        "price": 99999,
+        "rating": 4.8,
+        "color": "Space Black",
+        "storage": "512GB",
+        "size": "6.1 inches",
+        "camera": "12MP Ultra Wide, 12MP Wide, 12MP Telephoto, LiDAR Scanner",
+        "image": "iphone16plus.jpg"
+      },
+      {
+        "name": "iPhone 16 Plus",
+        "model": "A2658",
+        "price": 109999,
+        "rating": 4.8,
+        "color": "Starlight",
+        "storage": "512GB",
+        "size": "6.7 inches",
+        "camera": "12MP Ultra Wide, 12MP Wide, 12MP Telephoto, LiDAR Scanner",
+        "image": "iphone16plus.jpg"
+      },
+      {
+        "name": "iPhone 16 Pro",
+        "model": "A2659",
+        "price": 129999,
+        "rating": 4.9,
+        "color": "Space Black",
+        "storage": "1TB",
+        "size": "6.1 inches",
+        "camera": "48MP Ultra Wide, 12MP Wide, 12MP Telephoto, LiDAR Scanner",
+        "image": "iphone16pro.jpg"
+      },
+      {
+        "name": "iPhone 15 Pro",
+        "model": "A2655",
+        "price": 119999,
+        "rating": 4.8,
+        "color": "Space Black",
+        "storage": "512GB",
+        "size": "6.1 inches",
+        "camera": "48MP Ultra Wide, 12MP Wide, 12MP Telephoto, LiDAR Scanner",
+        "image": "iphone15pro.jpg"
+      },
+      {
+        "name": "iPhone 16 Pro Max",
+        "model": "A2660",
+        "price": 139999,
+        "rating": 4.9,
+        "color": "Silver",
+        "storage": "1TB",
+        "size": "6.7 inches",
+        "camera": "48MP Ultra Wide, 12MP Wide, 12MP Telephoto, LiDAR Scanner",
+        "image": "iphone16promax.jpg"
+      },
+      {
+        "name": "iPhone 16e",
+        "model": "A2661",
+        "price": 69999,
+        "rating": 4.4,
+        "color": "Black",
+        "storage": "128GB",
+        "size": "6.1 inches",
+        "camera": "48MP Wide",
+        "image": "iphone16e.jpg"
+      }
+    ]
+  }
+  
